@@ -25,6 +25,7 @@ if (freeEdges["bottom"] == true) {
     panel.location = "top";
 }
 
+panel.offset = 0;
 panel.height = screenGeometry(panel.screen).height > 1024 ? 38 : 27
 panel.maximumLength = screenGeometry(panel.screen).width;
 panel.minimumLength = screenGeometry(panel.screen).width;
